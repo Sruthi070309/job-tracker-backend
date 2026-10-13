@@ -1,0 +1,21 @@
+{
+  "name": "job-tracker-backend-v2",
+  "version": "2.1.0",
+  "description": "JobTrack API: JWT auth, role based access, openings, applications and admin",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js",
+    "create-admin": "node createAdmin.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0"
+  }
+}
